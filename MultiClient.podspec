@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MultiClient"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "MultiClient pod make it easier to handle apps that have several api clients."
 
   spec.description  = "MultiClient pod make it easier to handle apps that have several api clients. It's some kind a smart wrapper around common pod Alamofire"
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Multiclient/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
